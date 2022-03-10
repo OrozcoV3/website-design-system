@@ -1,0 +1,352 @@
+@import "/css/styles.css";
+
+.container > div {
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.container > div:nth-child(odd) {
+  margin: 0.5em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  text-align: center;
+  justify-content: center;
+  padding: 1em;
+  margin: 0 auto;
+  word-break: break-word;
+}
+
+  .container-typeface {
+    display: grid;
+    grid-column: 1/5;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.5em;
+    width: 95%;
+    height: 5em;
+    line-height: 1em;
+  }
+
+    .container-font > div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      align-items: stretch;
+      flex-shrink: 1;
+      flex-grow: 1;
+    }
+
+    .container-url > div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      align-items: stretch;
+      flex-shrink: 1;
+      flex-grow: 1;
+    }
+
+      .odd {
+        background-color: skyblue !important;
+        border-radius: 1em;
+      }
+
+      .even {
+        background-color: lightcyan !important;
+        border-radius: 1em;
+      }
+
+      hr {
+        border: 1px dashed #ddd;
+      }
+
+.font-name {
+  display: grid;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+
+/* Serifs */
+#serif {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Alice > .font-name,
+.Alice > p {
+  font-family: 'Alice', serif;
+}
+
+.Arvo > .font-name,
+.Arvo > p {
+  font-family: 'Arvo', serif;
+}
+
+.Domine > .font-name,
+.Domine > p {
+  font-family: 'Domine', serif;
+}
+
+.HeptaSlab > .font-name,
+.HeptaSlab > p {
+  font-family: 'Hepta Slab', serif;
+}
+
+.Lora > .font-name,
+.Lora > p {
+  font-family: 'Lora', serif;
+}
+
+.RobotoSerif > .font-name,
+.RobotoSerif > p {
+  font-family: 'Roboto Serif', serif;
+}
+
+.Volkhov > .font-name,
+.Volkhov > p {
+  font-family: 'Volkhov', serif;
+}
+
+.ZillaSlab > .font-name,
+.ZillaSlab > p {
+  font-family: 'Zilla Slab', serif;
+}
+
+
+/* Sans-Serifs */
+#sans-serif {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Biryani > .font-name,
+.Biryani > p {
+  font-family: 'Biryani', sans-serif;
+}
+
+.Exo > .font-name,
+.Exo > p {
+  font-family: 'Exo', sans-serif;
+}
+
+.JosefinSans > .font-name,
+.JosefinSans > p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Lato > .font-name,
+.Lato > p {
+  font-family: 'Lato', sans-serif;
+}
+
+.Quicksand > .font-name,
+.Quicksand > p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.WorkSans > .font-name,
+.WorkSans > p {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Display */
+#display {
+  font-family: 'Emilys Candy', cursive;
+}
+.ArimaMadurai > .font-name,
+.ArimaMadurai > p {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.BalsamiqSans > .font-name,
+.BalsamiqSans > p {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.Bellota > .font-name,
+.Bellota > p {
+  font-family: 'Bellota', cursive;
+}
+
+.CherrySwash > .font-name,
+.CherrySwash > p {
+  font-family: 'Cherry Swash', cursive;
+}
+
+.ElsieSwashCaps > .font-name,
+.ElsieSwashCaps > p {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+.EmilysCandy > .font-name,
+.EmilysCandy > p {
+  font-family: 'Emilys Candy', cursive;
+}
+
+.Flamenco > .font-name,
+.Flamenco > p {
+  font-family: 'Flamenco', cursive;
+}
+
+.GrenzeGotisch > .font-name,
+.GrenzeGotisch > p {
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+.LifeSavers > .font-name,
+.LifeSavers > p {
+  font-family: 'Life Savers', cursive;
+}
+
+.LobsterTwo > .font-name,
+.LobsterTwo > p {
+  font-family: 'Lobster Two', cursive;
+}
+
+.SansitaSwashed > .font-name,
+.SansitaSwashed > p {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.Tourney > .font-name,
+.Tourney > p {
+  font-family: 'Tourney', cursive;
+}
+
+.Trochut > .font-name,
+.Trochut > p {
+  font-family: 'Trochut', cursive;
+}
+
+
+/* Handwriting */
+#handwriting {
+  font-family: 'WindSong', cursive;
+}
+.AlexBrush > .font-name,
+.AlexBrush > p {
+  font-family: 'Alex Brush', cursive;
+}
+
+.Amita > .font-name,
+.Amita > p {
+  font-family: 'Amita', cursive;
+}
+
+.ArchitectsDaughter > .font-name,
+.ArchitectsDaughter > p {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.Arizonia > .font-name,
+.Arizonia > p {
+  font-family: 'Arizonia', cursive;
+}
+
+.Ballet > .font-name,
+.Ballet > p {
+  font-family: 'Ballet', cursive;
+}
+
+.Birthstone > .font-name,
+.Birthstone > p {
+  font-family: 'Birthstone', cursive;
+}
+
+.Carattere > .font-name,
+.Carattere > p  {
+  font-family: 'Carattere', cursive;
+}
+
+.Charmonman > .font-name,
+.Charmonman > p {
+  font-family: 'Charmonman', cursive;
+}
+
+.DancingScript > .font-name,
+.DancingScript > p {
+  font-family: 'Dancing Script', cursive;
+}
+
+.DawningOfANewDay > .font-name,
+.DawningOfANewDay > p {
+  font-family: 'Dawning of a New Day', cursive;
+}
+
+.GreatVibes > .font-name,
+.GreatVibes > p {
+  font-family: 'Great Vibes', cursive;
+}
+
+.Sacramento > .font-name,
+.Sacramento > p {
+  font-family: 'Sacramento', cursive;
+}
+
+.Tangerine > .font-name,
+.Tangerine > p {
+  font-family: 'Tangerine', cursive;
+}
+
+.WindSong > .font-name,
+.WindSong > p {
+  font-family: 'WindSong', cursive;
+}
+
+
+/* Monospace */
+#monospace {
+  font-family: 'Inconsolata', sans-serif;
+}
+.AnonymousPro > .font-name,
+.AnonymousPro > p {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.B612Mono > .font-name,
+.B612Mono > p {
+  font-family: 'B612 Mono', monospace;
+}
+
+.CutiveMono > .font-name,
+.CutiveMono > p {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.DMMono > .font-name,
+.DMMono > p {
+  font-family: 'DM Mono', monospace;
+}
+
+.Inconsolata > .font-name,
+.Inconsolata > p {
+  font-family: 'Inconsolata', monospace;
+}
+
+.MajorMonoDisplay > .font-name,
+.MajorMonoDisplay > p {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.PTMono > .font-name,
+.PTMono > p {
+  font-family: 'PT Mono', monospace;
+}
+
+.RedHatMono > .font-name,
+.RedHatMono > p {
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.SpaceMono > .font-name,
+.SpaceMono > p {
+  font-family: 'Space Mono', monospace;
+}

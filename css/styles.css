@@ -1,0 +1,150 @@
+
+.header {
+  background-color: rgb(0, 180, 216);
+  border-radius: 20px;
+}
+
+#title {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-left: 0.4em;
+  padding-top: 0.3em;
+  margin: 0 auto;
+  color: rgb(12, 15, 10);
+  overflow: auto;
+  border-radius: 12px;
+}
+h1 {
+  font-size: 36px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.4em;
+  font-weight: 800;
+}
+
+.title-description {
+  padding-left: 0.4em;
+  padding-bottom: 0.3em;
+  margin-top: 0;
+  margin-left: 1.2em;
+  margin-bottom: 0;
+  font-family: 'Great Vibes', cursive !important;
+  font-size: 2.1em;
+  color: rgb(12, 15, 10);
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  background-color: rgb(12, 15, 10);
+  border-radius: 10px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 1.5em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  /*cursor made by gafcodes.com*/
+  cursor: url(https://www.gafcodes.com/premade/cursors/jspunkette/cursor23.cur), default;
+}
+
+nav li a:hover {
+    background-color: rgb(144, 224, 239);
+    color: rgb(12, 15, 10);
+}
+
+.active-nav-link {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: white underline solid 0.2em;
+}
+
+#colors, 
+#text-styles,
+#fonts {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding: 0.8em;
+  margin-top: 0 auto;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #000;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+#colors,
+#text-styles,
+#fonts {
+  background-color: rgb(0, 180, 216);
+}
+
+.center-colors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  word-wrap: break-word;
+}
+
+/*to-top hyperlink*/
+* .to-top{
+  background-color: #fff; 
+  border: none;
+  outline: none;
+  padding-left: 0.4em;
+  margin-left: 0.4em;
+  font-size: 18px;
+  /*cursor made by gafcodes.com*/
+  cursor: url(https://www.gafcodes.com/premade/cursors/jspunkette/cursor23.cur), default;
+  text-decoration: underline dotted rgb(0, 119, 182) 5px;
+  color: rgb(0, 119, 182);
+}
+
+.to-top:active {
+  color: black;
+  text-decoration: underline dotted rgb(0, 0,0) 5px;
+}
+
+.text-styles {
+  padding-left: 5em;
+  margin-left: 7em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
