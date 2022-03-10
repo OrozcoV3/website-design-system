@@ -1,5 +1,4 @@
-**Website Design System
-**
+**Website Design System**
 
 Codecademy | Challenge Project: Build A Website Design System
 
